@@ -1,16 +1,24 @@
-### Hi there 👋
+### Hi, I'm Zayne! 👋
+---
 
-<!--
-**EpicDevv/EpicDevv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### I'm a Full-Stack Developer based in Las Vegas Nevada.
 
-Here are some ideas to get you started:
+- 🏢 I'm currently working as a freelance web developer
+- ⚙️ I use daily: `.js`, `.html`, `.scss`, `.svg`, `.png`, `.json`, `.sql` , `.react.js` , `next.js`
+- 🌍 I support and volunteer with: online and meetup coding communities
+- 💅 Active community member of: **Epic Dev's**
+- 🌱 Learning more about and studying: **Open Source, React, CS Algorithms**
+- 💬 Ping me about: **wed design**, **social media**, **diversity & inclusion**, **mentorship**
+- 📫 Reach me asap: <a href="https://twitter.com/epic_devv/">Twitter</a> or zayne.mngmt@gmail.com
+- 💜 Interests: huge crypto mining fan, cryptocurrency enthusiast, foodie, anything tech
+- 😄 Passionate about accessibility and committed to a web that works for everyone
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Find me around the web 🌎:
+- 💼 Connecting and sharing professional updates on <a href="hhttps://www.linkedin.com/in/zayne-lovecraft-0ba3a621a/">LinkedIn</a>
+
+- 🐦 Tweeting about coding, memes and sharing tech tweets on <a href="https://twitter.com/epic_devv/">Twitter</a>
+
+
+---
+
+⭐️ From [EpicDevv(https://github.com/EpicDevv)
