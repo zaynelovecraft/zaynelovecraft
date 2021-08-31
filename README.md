@@ -14,7 +14,7 @@
 - 😄 Passionate about accessibility and committed to a web that works for everyone
 
 #### Find me around the web 🌎:
-- 💼 Connecting and sharing professional updates on <a href="hhttps://www.linkedin.com/in/zayne-lovecraft-0ba3a621a/">LinkedIn</a>
+- 💼 Connecting and sharing professional updates on <a href="https://www.linkedin.com/in/zayne-lovecraft-0ba3a621a/">LinkedIn</a>
 
 - 🐦 Tweeting about coding, memes and sharing tech tweets on <a href="https://twitter.com/epic_devv/">Twitter</a>
 
