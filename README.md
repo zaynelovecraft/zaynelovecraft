@@ -9,12 +9,12 @@
 - 💅 Active community member of: **Epic Dev's**
 - 🌱 Learning more about and studying: **Open Source, React, CS Algorithms**
 - 💬 Ping me about: **wed design**, **social media**, **diversity & inclusion**, **mentorship**
-- 📫 Reach me asap: <a href="https://twitter.com/epic_devv/">Twitter</a> or zayne.mngmt@gmail.com
+- 📫 Reach me asap: <a href="https://twitter.com/epic_devv/">Twitter</a>
 - 💜 Interests: huge crypto mining fan, cryptocurrency enthusiast, foodie, anything tech
 - 😄 Passionate about accessibility and committed to a web that works for everyone
 
 #### Find me around the web 🌎:
-- 💼 Connecting and sharing professional updates on <a href="https://www.linkedin.com/in/zayne-lovecraft-0ba3a621a/">LinkedIn</a>
+
 
 - 🐦 Tweeting about coding, memes and sharing tech tweets on <a href="https://twitter.com/epic_devv/">Twitter</a>
 
