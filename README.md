@@ -3,7 +3,7 @@
 
 #### I'm a Full-Stack Developer based in Boise Idaho.
 
-- 🏢 I'm currently working Software Engineer at McDonalds 
+- 🏢 I'm currently working as a Software Engineer at McDonalds 
 - ⚙️ I use daily: `.js`, `.html`, `.svg`, `.png`, `.json`, `.sql` , `.react.js` , `next.js`, `typescript`
 - 🌍 I support and volunteer with: online and meetup coding communities
 - 💅 Active community member of: **Epic Dev's**
