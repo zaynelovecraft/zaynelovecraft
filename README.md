@@ -1,10 +1,10 @@
 ### Hi, I'm Zayne! 👋
 ---
 
-#### I'm a Full-Stack Developer based in Las Vegas Nevada.
+#### I'm a Full-Stack Developer based in Boise Idaho.
 
-- 🏢 I'm currently working as a freelance web developer
-- ⚙️ I use daily: `.js`, `.html`, `.scss`, `.svg`, `.png`, `.json`, `.sql` , `.react.js` , `next.js`
+- 🏢 I'm currently working Software Engineer at McDonalds 
+- ⚙️ I use daily: `.js`, `.html`, `.svg`, `.png`, `.json`, `.sql` , `.react.js` , `next.js`, `typescript`
 - 🌍 I support and volunteer with: online and meetup coding communities
 - 💅 Active community member of: **Epic Dev's**
 - 🌱 Learning more about and studying: **Open Source, React, CS Algorithms**
