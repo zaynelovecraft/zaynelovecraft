@@ -10,7 +10,7 @@
 - 🌱 **Currently Learning**: **Open Source**, **React**, **CS Algorithms**  
 - 🌍 **Passionate About**: Supporting and volunteering with online and meetup coding communities  
 - 💬 **Let’s Talk About**: **Web Design**, **Social Media**, **Diversity & Inclusion**, **Mentorship**  
-- 📫 **Reach Out**: [Twitter](https://twitter.com/epic_devv/)  
+- 📫 **Reach Out**: [X](https://x.com/zaynelovecraft)  
 - 💜 **Hobbies**: Crypto mining enthusiast, cryptocurrency fan, foodie, tech lover  
 - 😄 **My Mission**: Advocating for accessibility and a more inclusive, user-friendly web  
 
