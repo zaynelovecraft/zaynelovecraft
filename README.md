@@ -18,7 +18,7 @@
 
 - 🐦 Catch me tweeting about coding, memes, and tech insights on [X](https://x.com/zaynelovecraft)  
 - 💻 Check out my GitHub for projects, open-source contributions, and more: [GitHub](https://github.com/zaynelovecraft)  
-- 📑 Read my articles and thoughts on tech on [LinkedIn](www.linkedin.com/in/zayne-lovecraft)  
+- 📑 Read my articles and thoughts on tech on [LinkedIn](https://www.linkedin.com/in/zayne-lovecraft-0ba3a621a/)  
 
 ---
 
