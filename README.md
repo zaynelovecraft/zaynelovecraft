@@ -1,24 +1,27 @@
-### Hi, I'm Zayne! 👋
 ---
 
-#### I'm a Full-Stack Developer based in Boise Idaho.
+### Hi, I'm Zayne! 👋  
+---
 
-- 🏢 I'm currently working as a Software Engineer at McDonalds 
-- ⚙️ I use daily: `.js`, `.html`, `.svg`, `.png`, `.json`, `.sql` , `.react.js` , `next.js`, `typescript`
-- 🌍 I support and volunteer with: online and meetup coding communities
-- 💅 Active community member of: **Epic Dev's**
-- 🌱 Learning more about and studying: **Open Source, React, CS Algorithms**
-- 💬 Ping me about: **wed design**, **social media**, **diversity & inclusion**, **mentorship**
-- 📫 Reach me asap: <a href="https://twitter.com/epic_devv/">Twitter</a>
-- 💜 Interests: huge crypto mining fan, cryptocurrency enthusiast, foodie, anything tech
-- 😄 Passionate about accessibility and committed to a web that works for everyone
+#### Full-Stack Developer & CEO of DGTL PROS LLC | Boise, Idaho  
 
-#### Find me around the web 🌎:
+- 🏢 **Current Role**: CEO at DGTL PROS LLC, Software Engineer at McDonald's  
+- ⚙️ **Technologies I Use**: `.js`, `.html`, `.svg`, `.png`, `.json`, `.sql`, `React.js`, `Next.js`, `TypeScript`  
+- 🌱 **Currently Learning**: **Open Source**, **React**, **CS Algorithms**  
+- 🌍 **Passionate About**: Supporting and volunteering with online and meetup coding communities  
+- 💬 **Let’s Talk About**: **Web Design**, **Social Media**, **Diversity & Inclusion**, **Mentorship**  
+- 📫 **Reach Out**: [Twitter](https://twitter.com/epic_devv/)  
+- 💜 **Hobbies**: Crypto mining enthusiast, cryptocurrency fan, foodie, tech lover  
+- 😄 **My Mission**: Advocating for accessibility and a more inclusive, user-friendly web  
 
+#### Find Me Around the Web 🌎:
 
-- 🐦 Tweeting about coding, memes and sharing tech tweets on <a href="https://twitter.com/epic_devv/">Twitter</a>
-
+- 🐦 Catch me tweeting about coding, memes, and tech insights on [X](https://x.com/zaynelovecraft)  
+- 💻 Check out my GitHub for projects, open-source contributions, and more: [GitHub](https://github.com/zaynelovecraft)  
+- 📑 Read my articles and thoughts on tech on [LinkedIn](www.linkedin.com/in/zayne-lovecraft)  
 
 ---
 
-⭐️ From [EpicDevv(https://github.com/EpicDevv)
+⭐️ Proudly created by [Zayne](https://github.com/zaynelovecraft)
+
+---
