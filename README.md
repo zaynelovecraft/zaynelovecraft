@@ -3,9 +3,9 @@
 ### Hi, I'm Zayne! 👋  
 ---
 
-#### Full-Stack Developer & CEO of DGTL PROS LLC | Boise, Idaho  
+#### Full-Stack Developer & Dad | Boise, Idaho  
 
-- 🏢 **Current Role**: CEO at DGTL PROS LLC, Software Engineer at McDonald's  
+- 🏢 **Current Role**: Software Engineer at McDonald's  
 - ⚙️ **Technologies I Use**: `.js`, `.html`, `.svg`, `.png`, `.json`, `.sql`, `React.js`, `Next.js`, `TypeScript`  
 - 🌱 **Currently Learning**: **Open Source**, **React**, **CS Algorithms**  
 - 🌍 **Passionate About**: Supporting and volunteering with online and meetup coding communities  
