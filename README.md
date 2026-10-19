@@ -1,25 +1,34 @@
----
+# Hey, I'm Zayne 👋
 
-### Hi, I'm Zayne! 👋  
----
+**Senior Software Engineer @ McDonald's 🍟**
 
-#### Full-Stack Developer & Dad | Boise, Idaho  
+Full-stack software engineer specializing in modern web and mobile experiences.
 
-- 🏢 **Current Role**: Software Engineer at McDonald's  
-- ⚙️ **Technologies I Use**: `.js`, `.html`, `.svg`, `.png`, `.json`, `.sql`, `React.js`, `Next.js`, `TypeScript`  
-- 🌱 **Currently Learning**: **Open Source**, **React**, **CS Algorithms**  
-- 🌍 **Passionate About**: Supporting and volunteering with online and meetup coding communities  
-- 💬 **Let’s Talk About**: **Web Design**, **Social Media**, **Diversity & Inclusion**, **Mentorship**    
-- 💜 **Hobbies**: Crypto mining enthusiast, cryptocurrency fan, foodie, tech lover  
-- 😄 **My Mission**: Advocating for accessibility and a more inclusive, user-friendly web  
+Currently working on McDonald's web ordering experience, helping build and improve the digital customer journey.
 
-#### Find Me Around the Web 🌎:
+I enjoy building scalable applications, solving complex engineering problems, and turning ideas into real products.
 
-- 💻 Check out my GitHub for projects, open-source contributions, and more: [GitHub](https://github.com/zaynelovecraft)  
-- 📑 Read my articles and thoughts on tech on [LinkedIn](https://www.linkedin.com/in/zayne-lovecraft-0ba3a621a/)  
+### ⚡ What I'm Into
 
----
+- 🌐 Full-stack Web & Mobile Development
+- ⚛️ React, Next.js & TypeScript
+- 🏗️ Software Architecture & Performance
+- ☁️ Cloud Infrastructure & Backend Systems
+- 🤖 AI, Automation & Developer Tools
+- 🚀 Building Products & SaaS
 
-⭐️ Proudly created by [Zayne](https://github.com/zaynelovecraft)
+### 🛠️ Tech Stack
 
----
+**Frontend:** TypeScript, JavaScript, React, Next.js
+
+**Backend:** Node.js, REST APIs, PostgreSQL, Supabase, Redis
+
+**Infrastructure:** Vercel, Docker, GitHub Actions
+
+### 🚀 Beyond Work
+
+I enjoy experimenting with emerging technologies, building independent projects, and exploring ways to make software development faster and more effective.
+
+### 🤝 Connect
+
+Always interested in connecting with engineers, builders, and people working on interesting problems.
