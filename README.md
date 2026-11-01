@@ -4,12 +4,12 @@
 
 By day I'm a Software Engineer III at McDonald's, working on the web ordering app (yes, that one 🍟 — no, the ice cream machine isn't my microservice). Nights and weekends I ship my own projects: AI pipelines, CLI utilities, and fast little web apps. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
 
-### 🔨 Currently building
+### 🔨 Open source & currently building
 
-- **[SynthPress](https://synthpress.ai)**: an AI pipeline that writes, illustrates, and publishes articles across a network of 20 WordPress sites
-- **[zaynelovecraft.com](https://www.zaynelovecraft.com)** ([repo](https://github.com/zaynelovecraft/new-portfolio)): my portfolio and blog. Markdown posts an AI agent can publish, auto-sourced cover photos, and a Supabase contact inbox
+- **[agent-os](https://github.com/zaynelovecraft/agent-os)**: a filesystem-first personal operating system for Cursor & Claude Code agents — persistent `memory.md` correction loop, lean `context/`, 3-layer research archive, and reusable `SKILL.md` workflows
 - **[porthog](https://github.com/zaynelovecraft/porthog)**: zero-dependency macOS CLI wrapper around `lsof` and `launchctl` to inspect port hogs, trace `launchd` services, and kill them cleanly
 - **[dotfiles](https://github.com/zaynelovecraft/dotfiles)**: single-file Neovim (`init.lua`), sub-30ms Zsh, automatic per-remote Git identity switching, and Cursor agent rules
+- **[SynthPress](https://synthpress.ai)**: an AI pipeline that writes, illustrates, and publishes articles across a network of 20 WordPress sites
 
 ### 🧰 Daily drivers
 
