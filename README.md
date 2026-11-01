@@ -19,7 +19,11 @@ By day I'm a Software Engineer III at McDonald's, working on the web ordering ap
 
 Cursor agents · Neovim · Claude · Vercel AI SDK · Vercel Workflow · MCP · Supabase · Next.js · TypeScript
 
-📝 Latest post: [Top 10 AI Tools to Build With Today (and How to Use Them)](https://www.zaynelovecraft.com/articles/top-10-ai-tools-to-build-with)
+📝 Recent posts on **[zaynelovecraft.com](https://www.zaynelovecraft.com/articles)**:
+- [Filesystem-First AI Agent OS for Cursor and Claude Code](https://www.zaynelovecraft.com/articles/filesystem-first-ai-agent-os-cursor-claude)
+- [Building Custom MCP Servers in TypeScript for Cursor](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
+- [Generative Engine Optimization (GEO) & CWV Gates in Next.js](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)
+- [Top 10 AI Tools to Build With Today (and How to Use Them)](https://www.zaynelovecraft.com/articles/top-10-ai-tools-to-build-with)
 
 ### 💬 Ask me about
 
