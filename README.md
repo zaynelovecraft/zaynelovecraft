@@ -2,17 +2,18 @@
 
 **I build things, mostly with AI.**
 
-By day I'm a Software Engineer III at McDonald's, working on the web ordering app (yes, that one 🍟). Nights and weekends I ship my own projects: AI pipelines, automation tools, and fast little web apps. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
+By day I'm a Software Engineer III at McDonald's, working on the web ordering app (yes, that one 🍟 — no, the ice cream machine isn't my microservice). Nights and weekends I ship my own projects: AI pipelines, CLI utilities, and fast little web apps. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
 
 ### 🔨 Currently building
 
 - **[SynthPress](https://synthpress.ai)**: an AI pipeline that writes, illustrates, and publishes articles across a network of 20 WordPress sites
 - **[zaynelovecraft.com](https://www.zaynelovecraft.com)** ([repo](https://github.com/zaynelovecraft/new-portfolio)): my portfolio and blog. Markdown posts an AI agent can publish, auto-sourced cover photos, and a Supabase contact inbox
-- **Small AI tools and automations**, built in public right here
+- **[porthog](https://github.com/zaynelovecraft/porthog)**: zero-dependency macOS CLI wrapper around `lsof` and `launchctl` to inspect port hogs, trace `launchd` services, and kill them cleanly
+- **[dotfiles](https://github.com/zaynelovecraft/dotfiles)**: single-file Neovim (`init.lua`), sub-30ms Zsh, automatic per-remote Git identity switching, and Cursor agent rules
 
 ### 🧰 Daily drivers
 
-Cursor agents · Claude · Vercel AI SDK · Vercel Workflow · MCP · Supabase · Next.js · TypeScript
+Cursor agents · Neovim · Claude · Vercel AI SDK · Vercel Workflow · MCP · Supabase · Next.js · TypeScript
 
 📝 Latest post: [Top 10 AI Tools to Build With Today (and How to Use Them)](https://www.zaynelovecraft.com/articles/top-10-ai-tools-to-build-with)
 
