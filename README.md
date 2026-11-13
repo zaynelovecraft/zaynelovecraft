@@ -2,10 +2,11 @@
 
 **I build things, mostly with AI.**
 
-By day I'm a Software Engineer III at McDonald's, working on the web ordering app (yes, that one 🍟 — no, the ice cream machine isn't my microservice). Nights and weekends I ship my own projects: AI pipelines, MCP servers, CLI utilities, and fast little web apps. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
+By day I'm a Software Engineer III at McDonald's, working on the global web ordering platform (yes, that one 🍟 — no, the ice cream machine isn't my microservice). Nights and weekends I ship my own projects: AI pipelines, MCP servers, CLI utilities, and fast web apps. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
 
 ### 🔨 Open source & currently building
 
+- **[Zivvi](https://zivvi.app)**: web app marketplace & discovery engine indexing 2,400+ apps across 28 categories with daily Tranco traffic velocity and hybrid Postgres + vector search
 - **[agent-os](https://github.com/zaynelovecraft/agent-os)**: a filesystem-first personal operating system for Cursor & Claude Code agents — persistent `memory.md` correction loop, lean `context/`, 3-layer research archive, and reusable `SKILL.md` workflows
 - **[yt-skill-mcp](https://github.com/zaynelovecraft/yt-skill-mcp)**: MCP server & CLI that fetches timestamped YouTube transcripts and compiles technical talks into Cursor `SKILL.md` files
 - **[ai-content-workflow](https://github.com/zaynelovecraft/ai-content-workflow)**: multi-step AI editorial pipeline built on the Vercel AI SDK (`generateObject` + `generateText`) with Zod quality gates
@@ -17,13 +18,14 @@ By day I'm a Software Engineer III at McDonald's, working on the web ordering ap
 
 ### 🧰 Daily drivers
 
-Cursor agents · Neovim · Claude · Vercel AI SDK · Vercel Workflow · MCP · Supabase · Next.js · TypeScript
+Cursor agents · Claude Code · Neovim · Vercel AI SDK · Vercel Workflow · MCP · Supabase · Next.js · TypeScript
 
 📝 Recent posts on **[zaynelovecraft.com](https://www.zaynelovecraft.com/articles)**:
+- [Vibe Coding to Production: AI Guardrails in Next.js 16](https://www.zaynelovecraft.com/articles/vibe-coding-guardrails-ai-coding-agents-nextjs)
+- [Architecting Zivvi: Hybrid Search & Traffic Rankings in Next.js 16](https://www.zaynelovecraft.com/articles/architecting-zivvi-web-app-search-ranking-engine-nextjs)
 - [Filesystem-First AI Agent OS for Cursor and Claude Code](https://www.zaynelovecraft.com/articles/filesystem-first-ai-agent-os-cursor-claude)
 - [Building Custom MCP Servers in TypeScript for Cursor](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
 - [Generative Engine Optimization (GEO) & CWV Gates in Next.js](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)
-- [Top 10 AI Tools to Build With Today (and How to Use Them)](https://www.zaynelovecraft.com/articles/top-10-ai-tools-to-build-with)
 
 ### 💬 Ask me about
 
