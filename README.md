@@ -2,11 +2,10 @@
 
 **I build things, mostly with AI.**
 
-By day I'm a Software Engineer III at McDonald's, working on the global web ordering platform (yes, that one 🍟 — no, the ice cream machine isn't my microservice). Nights and weekends I ship my own projects: AI pipelines, MCP servers, CLI utilities, and fast web apps. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
+By day I'm a Software Engineer III at McDonald's, working on the global web ordering platform (yes, that one 🍟 — no, the ice cream machine isn't my microservice). Outside of work I ship open-source developer tools: AI agent workspaces, MCP servers, CLI utilities, and Next.js performance gates. I write up what I learn at **[zaynelovecraft.com](https://www.zaynelovecraft.com)**.
 
-### 🔨 Open source & currently building
+### 🔨 Open source
 
-- **[Zivvi](https://zivvi.app)**: web app marketplace & discovery engine indexing 2,400+ apps across 28 categories with daily Tranco traffic velocity and hybrid Postgres + vector search
 - **[agent-os](https://github.com/zaynelovecraft/agent-os)**: a filesystem-first personal operating system for Cursor & Claude Code agents — persistent `memory.md` correction loop, lean `context/`, 3-layer research archive, and reusable `SKILL.md` workflows
 - **[yt-skill-mcp](https://github.com/zaynelovecraft/yt-skill-mcp)**: MCP server & CLI that fetches timestamped YouTube transcripts and compiles technical talks into Cursor `SKILL.md` files
 - **[ai-content-workflow](https://github.com/zaynelovecraft/ai-content-workflow)**: multi-step AI editorial pipeline built on the Vercel AI SDK (`generateObject` + `generateText`) with Zod quality gates
@@ -14,22 +13,21 @@ By day I'm a Software Engineer III at McDonald's, working on the global web orde
 - **[next-vitals-guard](https://github.com/zaynelovecraft/next-vitals-guard)**: Next.js App Router client bundle & Core Web Vitals CI budget gate
 - **[md-cover](https://github.com/zaynelovecraft/md-cover)**: zero-config CLI that pulls landscape Pexels covers, crops to `1600x840`, and patches Markdown frontmatter + attribution
 - **[porthog](https://github.com/zaynelovecraft/porthog)** & **[dotfiles](https://github.com/zaynelovecraft/dotfiles)**: zero-dependency macOS `lsof`/`launchctl` CLI + single-file Neovim & Zsh setup
-- **[SynthPress](https://synthpress.ai)**: an AI pipeline that writes, illustrates, and publishes articles across a network of 20 WordPress sites
 
 ### 🧰 Daily drivers
 
-Cursor agents · Claude Code · Neovim · Vercel AI SDK · Vercel Workflow · MCP · Supabase · Next.js · TypeScript
+Google Antigravity · Cursor agents · Claude Code · Neovim · Vercel AI SDK · MCP · Supabase · Next.js · TypeScript
 
 📝 Recent posts on **[zaynelovecraft.com](https://www.zaynelovecraft.com/articles)**:
+- [Why I Canceled All My AI Subscriptions for Google AI](https://www.zaynelovecraft.com/articles/why-i-canceled-my-ai-subscriptions-for-google)
 - [Vibe Coding to Production: AI Guardrails in Next.js 16](https://www.zaynelovecraft.com/articles/vibe-coding-guardrails-ai-coding-agents-nextjs)
-- [Architecting Zivvi: Hybrid Search & Traffic Rankings in Next.js 16](https://www.zaynelovecraft.com/articles/architecting-zivvi-web-app-search-ranking-engine-nextjs)
+- [Why Next.js Is Still the Best Frontend Framework in 2026](https://www.zaynelovecraft.com/articles/why-nextjs-is-still-the-best-frontend-framework)
 - [Filesystem-First AI Agent OS for Cursor and Claude Code](https://www.zaynelovecraft.com/articles/filesystem-first-ai-agent-os-cursor-claude)
-- [Building Custom MCP Servers in TypeScript for Cursor](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
 - [Generative Engine Optimization (GEO) & CWV Gates in Next.js](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)
 
 ### 💬 Ask me about
 
-AI agents and automation pipelines · Next.js performance · technical SEO · why your Lighthouse score dropped overnight
+Enterprise Next.js architecture · AI agents and MCP servers · Core Web Vitals & technical SEO · why your Lighthouse score dropped overnight
 
 ### 🤝 Find me
 
