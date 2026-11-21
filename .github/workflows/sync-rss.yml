@@ -1,0 +1,43 @@
+name: Sync Latest Blog Posts
+
+on:
+  schedule:
+    # Runs every 6 hours to pick up newly published articles from zaynelovecraft.com
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/sync-rss.mjs"
+      - ".github/workflows/sync-rss.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sync RSS feed into README.md
+        run: node scripts/sync-rss.mjs
+
+      - name: Commit & push if updated
+        run: |
+          if git diff --quiet README.md; then
+            echo "No new blog posts to sync."
+            exit 0
+          fi
+          git config user.name "Zayne Lovecraft"
+          git config user.email "88962596+zaynelovecraft@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): sync latest articles from zaynelovecraft.com"
+          git push
