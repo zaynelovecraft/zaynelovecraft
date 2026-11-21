@@ -1,19 +1,25 @@
 #!/usr/bin/env node
 /**
- * Fetches the latest articles from https://www.zaynelovecraft.com/articles/rss.xml
- * and updates the <!-- BLOG-POST-LIST:START --> ... <!-- BLOG-POST-LIST:END -->
- * block in README.md. Zero external dependencies (Node 20+ native fetch).
+ * Syncs both:
+ * 1) Latest articles from https://www.zaynelovecraft.com/articles/rss.xml
+ * 2) Recent engineering TILs from https://raw.githubusercontent.com/zaynelovecraft/til/main/README.md
+ * into README.md. Zero external dependencies (Node 20+ native fetch).
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const RSS_URL = process.env.RSS_URL || "https://www.zaynelovecraft.com/articles/rss.xml";
+const TIL_README_URL =
+  process.env.TIL_README_URL || "https://raw.githubusercontent.com/zaynelovecraft/til/main/README.md";
 const MAX_POSTS = Number(process.env.MAX_POSTS || 5);
+const MAX_TILS = Number(process.env.MAX_TILS || 5);
 const README_PATH = resolve(process.cwd(), "README.md");
 
-const START_MARKER = "<!-- BLOG-POST-LIST:START -->";
-const END_MARKER = "<!-- BLOG-POST-LIST:END -->";
+const BLOG_START = "<!-- BLOG-POST-LIST:START -->";
+const BLOG_END = "<!-- BLOG-POST-LIST:END -->";
+const TIL_START = "<!-- RECENT-TILS:START -->";
+const TIL_END = "<!-- RECENT-TILS:END -->";
 
 function decodeXml(str = "") {
   return str
@@ -43,7 +49,22 @@ function formatDate(pubDate) {
   });
 }
 
-async function main() {
+function replaceBetweenMarkers(source, startMarker, endMarker, lines) {
+  const startIndex = source.indexOf(startMarker);
+  const endIndex = source.indexOf(endMarker);
+  if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
+    throw new Error(`Could not find ${startMarker} ... ${endMarker} in README.md`);
+  }
+  return (
+    source.slice(0, startIndex + startMarker.length) +
+    "\n" +
+    lines.join("\n") +
+    "\n" +
+    source.slice(endIndex)
+  );
+}
+
+async function fetchBlogLines() {
   const response = await fetch(RSS_URL, {
     headers: {
       "User-Agent": "zaynelovecraft-profile-rss-sync/1.0 (+https://github.com/zaynelovecraft)",
@@ -62,34 +83,50 @@ async function main() {
     throw new Error(`No <item> entries found in RSS feed: ${RSS_URL}`);
   }
 
-  const posts = itemMatches.slice(0, MAX_POSTS).map((match) => {
+  return itemMatches.slice(0, MAX_POSTS).map((match) => {
     const raw = match[1];
     const title = extractTag(raw, "title");
     const link = extractTag(raw, "link");
     const category = extractTag(raw, "category");
     const date = formatDate(extractTag(raw, "pubDate"));
-    return { title, link, category, date };
-  });
-
-  const renderedLines = posts.map(({ title, link, category, date }) => {
     const meta = [category ? `\`${category}\`` : "", date].filter(Boolean).join(" · ");
     return meta ? `- **[${title}](${link})** — ${meta}` : `- **[${title}](${link})**`;
   });
+}
+
+async function fetchTilLines() {
+  const response = await fetch(TIL_README_URL, {
+    headers: { "User-Agent": "zaynelovecraft-profile-rss-sync/1.0 (+https://github.com/zaynelovecraft)" },
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to fetch TIL README (${response.status} ${response.statusText})`);
+  }
+  const md = await response.text();
+  const startIndex = md.indexOf(TIL_START);
+  const endIndex = md.indexOf(TIL_END);
+  if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
+    throw new Error("Could not find RECENT-TILS markers in til/README.md");
+  }
+  return md
+    .slice(startIndex + TIL_START.length, endIndex)
+    .trim()
+    .split("\n")
+    .filter((line) => line.startsWith("- "))
+    .slice(0, MAX_TILS)
+    .map((line) =>
+      line.replace(
+        /\]\((?!https?:\/\/)([^)]+)\)/g,
+        "](https://github.com/zaynelovecraft/til/blob/main/$1)",
+      ),
+    );
+}
+
+async function main() {
+  const [blogLines, tilLines] = await Promise.all([fetchBlogLines(), fetchTilLines()]);
 
   const readme = readFileSync(README_PATH, "utf8");
-  const startIndex = readme.indexOf(START_MARKER);
-  const endIndex = readme.indexOf(END_MARKER);
-
-  if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
-    throw new Error(`Could not find ${START_MARKER} ... ${END_MARKER} markers in README.md`);
-  }
-
-  const updated =
-    readme.slice(0, startIndex + START_MARKER.length) +
-    "\n" +
-    renderedLines.join("\n") +
-    "\n" +
-    readme.slice(endIndex);
+  let updated = replaceBetweenMarkers(readme, BLOG_START, BLOG_END, blogLines);
+  updated = replaceBetweenMarkers(updated, TIL_START, TIL_END, tilLines);
 
   if (updated === readme) {
     console.log("README.md is already up to date.");
@@ -97,7 +134,7 @@ async function main() {
   }
 
   writeFileSync(README_PATH, updated, "utf8");
-  console.log(`Updated README.md with ${posts.length} latest articles.`);
+  console.log(`Updated README.md with ${blogLines.length} articles and ${tilLines.length} TILs.`);
 }
 
 main().catch((err) => {

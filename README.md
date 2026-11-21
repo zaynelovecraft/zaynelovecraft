@@ -2,7 +2,7 @@
 
 **Software Engineer III @ McDonald's · Enterprise Next.js, AI Agents & High-Performance Web Architecture**
 
-[zaynelovecraft.com](https://www.zaynelovecraft.com) · [Articles](https://www.zaynelovecraft.com/articles) · [Case Studies](https://www.zaynelovecraft.com/work) · [LinkedIn](https://www.linkedin.com/in/zayne-lovecraft) · [YouTube](https://www.youtube.com/@ZayneLovecraft) · [X](https://x.com/zaynelovecraft)
+[zaynelovecraft.com](https://www.zaynelovecraft.com) · [Articles](https://www.zaynelovecraft.com/articles) · [Case Studies](https://www.zaynelovecraft.com/work) · [TIL Notebook](https://github.com/zaynelovecraft/til) · [LinkedIn](https://www.linkedin.com/in/zayne-lovecraft) · [YouTube](https://www.youtube.com/@ZayneLovecraft) · [X](https://x.com/zaynelovecraft)
 
 ---
 
@@ -20,7 +20,17 @@ Outside of work, I build open-source AI agent workspaces, MCP servers, CLI utili
 - **[Generative Engine Optimization (GEO) & CWV Gates in Next.js](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)** — `Technical SEO` · Oct 31, 2026
 <!-- BLOG-POST-LIST:END -->
 
-<sub>Auto-synced from <a href="https://www.zaynelovecraft.com/articles/rss.xml">zaynelovecraft.com/articles/rss.xml</a> via GitHub Actions.</sub>
+### ⚡ Latest Engineering Field Notes ([zaynelovecraft/til](https://github.com/zaynelovecraft/til))
+
+<!-- RECENT-TILS:START -->
+- **[Streaming Unawaited Server Promises Across RSC -> Client Boundaries with `use()`](https://github.com/zaynelovecraft/til/blob/main/nextjs/passing-promises-across-rsc-client-boundaries.md)** — `Next.js & App Router` · *2026-11-20*
+- **[Linking `Person`, `WebSite`, and `BlogPosting` Entities in a Single JSON-LD `@graph`](https://github.com/zaynelovecraft/til/blob/main/performance-seo/json-ld-entity-graph-id-linking.md)** — `Core Web Vitals & Technical SEO` · *2026-11-19*
+- **[Isolating Request Cookies from Cached Shells with `'use cache'`](https://github.com/zaynelovecraft/til/blob/main/nextjs/cache-components-use-cache-dynamic-boundaries.md)** — `Next.js & App Router` · *2026-11-18*
+- **[Why `console.log()` Corrupts `stdio` MCP Servers](https://github.com/zaynelovecraft/til/blob/main/ai-mcp/mcp-server-stdout-jsonrpc-corruption.md)** — `AI Systems & MCP Servers` · *2026-11-17*
+- **[Avoiding React 19 SSR Hydration Mismatches with Persisted Zustand Stores](https://github.com/zaynelovecraft/til/blob/main/react-typescript/zustand-ssr-hydration-without-mismatch.md)** — `React 19 & TypeScript` · *2026-11-16*
+<!-- RECENT-TILS:END -->
+
+<sub>Auto-synced from <a href="https://www.zaynelovecraft.com/articles/rss.xml">zaynelovecraft.com/articles/rss.xml</a> and <a href="https://github.com/zaynelovecraft/til">zaynelovecraft/til</a> via GitHub Actions.</sub>
 
 ### 📌 Flagship Open-Source Tools
 
@@ -31,9 +41,9 @@ Outside of work, I build open-source AI agent workspaces, MCP servers, CLI utili
 | **[next-vitals-guard](https://github.com/zaynelovecraft/next-vitals-guard)** | Next.js App Router client bundle & Core Web Vitals CI gate — measures real gzipped chunks in `.next/static/chunks` | `npx github:zaynelovecraft/next-vitals-guard --max-kb=220` |
 | **[geo-audit](https://github.com/zaynelovecraft/geo-audit)** | Zero-dependency CLI auditor for Technical SEO & Generative Engine Optimization (`JSON-LD` graphs, AI crawlers, `/llms.txt`) | `npx github:zaynelovecraft/geo-audit https://zaynelovecraft.com` |
 | **[ai-content-workflow](https://github.com/zaynelovecraft/ai-content-workflow)** | Multi-step AI editorial pipeline on the Vercel AI SDK (`generateObject` + `generateText`) with Zod brief & quality gates | `git clone https://github.com/zaynelovecraft/ai-content-workflow.git` |
-| **[porthog](https://github.com/zaynelovecraft/porthog)** | Zero-dependency macOS CLI around `lsof`, `ps`, and `launchctl` to inspect listening TCP ports and manage `launchd` services | `git clone https://github.com/zaynelovecraft/porthog.git` |
+| **[til](https://github.com/zaynelovecraft/til)** | Bite-sized engineering field notes on Next.js 16 Cache Components, React 19 RSC streaming, TypeScript, CWV, MCP & macOS tooling | `git clone https://github.com/zaynelovecraft/til.git` |
 
-**More tools & configs:** **[md-cover](https://github.com/zaynelovecraft/md-cover)** (zero-config `1600×840` Pexels frontmatter cover CLI) · **[dotfiles](https://github.com/zaynelovecraft/dotfiles)** (single-file Neovim `init.lua`, sub-30ms Zsh prompt & URL-scoped Git config)
+**More tools & configs:** **[porthog](https://github.com/zaynelovecraft/porthog)** (macOS `lsof`/`launchctl` port & service inspector CLI) · **[md-cover](https://github.com/zaynelovecraft/md-cover)** (zero-config `1600×840` Pexels frontmatter cover CLI) · **[dotfiles](https://github.com/zaynelovecraft/dotfiles)** (single-file Neovim `init.lua`, sub-30ms Zsh prompt & URL-scoped Git config)
 
 ### 🧰 Core Stack & Focus Areas
 
